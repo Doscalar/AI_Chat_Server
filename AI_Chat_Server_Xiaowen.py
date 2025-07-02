@@ -7,7 +7,7 @@ from datetime import datetime
 # 修改后的API类
 class WenHuaAPI:
     def __init__(self):
-        self.base_url = "https://swarm.wenhua.com.cn/aiservice/api/ShiXi/GetContent"
+        self.base_url = "Wenhua API"
         self.headers = {
             "Content-Type": "application/json"
         }
