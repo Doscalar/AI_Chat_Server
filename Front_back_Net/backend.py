@@ -29,7 +29,7 @@ class InitSessionRequest(BaseModel):
 
 class WenHuaAPI:
     def __init__(self):
-        self.base_url = "https://swarm.wenhua.com.cn/aiservice/api/ShiXi/GetContent"
+        self.base_url = "Wenhua API"
         self.headers = {"Content-Type": "application/json"}
 
     def generate_response(self, content_text: str) -> requests.Response:
